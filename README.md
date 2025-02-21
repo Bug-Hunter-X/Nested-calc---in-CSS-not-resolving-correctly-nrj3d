@@ -1,0 +1,1 @@
+This repository demonstrates a bug related to nested calculations using the `calc()` function in CSS. The bug causes unexpected behavior when attempting to nest `calc()` expressions.  The solution provides a workaround to achieve the desired result.
