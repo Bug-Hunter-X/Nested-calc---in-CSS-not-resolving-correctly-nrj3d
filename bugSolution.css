@@ -1,0 +1,13 @@
+Avoid nesting `calc()` functions. Instead, perform the calculations beforehand and use the resulting value. For example, instead of:
+
+```css
+width: calc(calc(100% - 20px) - 10px);
+```
+
+Use:
+
+```css
+width: calc(100% - 30px);
+```
+
+This ensures that the calculations are performed correctly and produces the expected layout.
